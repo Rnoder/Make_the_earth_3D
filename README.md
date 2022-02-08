@@ -1,2 +1,8 @@
-# Transform-the-earth
-地球のDEM（経度、緯度、標高）をBlenderで読み込める形式に変換するスクリプト
+# Make_the_earth_3D
+地球のDEM（経度、緯度、標高）から3Dモデルを作成するスクリプト
+
+１、DEMをQGISで投影座標系のXYZ（経度、緯度、標高）に変換する
+２、巨大なファイルになる場合は、ファイルを切り分ける
+３、earth_for.pyで直交座標系のXYZに変換
+４、Blenderで点群データをインポートし、Obj形式でエクスポート
+５、MeshLabでメッシュ作成
