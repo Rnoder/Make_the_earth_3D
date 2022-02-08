@@ -3,7 +3,7 @@ import os
 import bpy
 import glob
 
-os.chdir(rf'C:\Users\endeavor1\Desktop\earth\Blender')
+os.chdir(rf'C:\Users\')
 list = glob.glob('*.txt')
 N = len(list)
 
