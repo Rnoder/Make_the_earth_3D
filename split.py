@@ -1,5 +1,5 @@
 import os
-os.chdir(rf'C:\Users\endeavor1\Desktop\earth\30m')
+os.chdir(rf'C:\Users\')
 
 in_file_name = "30m.txt"
 out_file_name_template = "splitted_%d.txt"
@@ -24,7 +24,3 @@ while line:
 
 out_file.close()
 in_file.close()
-
-
-
-####
