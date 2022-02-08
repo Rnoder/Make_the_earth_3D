@@ -36,6 +36,3 @@ for i in range(0,N):
     df = pd.DataFrame({'X':X,'Y':Y,'Z':Z})   # リストをデータフレームに格納
     df.to_csv(str(text1)+'_earth.csv', sep = ' ', header = False, index = False)   # Blenderに対応するフォーマットへ変換。Excellでセルを分けたい場合はsep = ','とし、csv形式で保存してください。
     os.rename(str(text1)+'_earth.csv',str(text1)+'_earth.txt')
-
-
-####
